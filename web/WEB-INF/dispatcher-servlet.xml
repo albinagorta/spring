@@ -18,14 +18,12 @@
     -->
     <bean id="urlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
         <property name="mappings">
-            <props>
-                <prop key="index.htm">indexController</prop>
-                 <prop key="Producto.htm">ControladorProducto</prop>
-                  <prop key="Eliminar.htm">ControladorProducto</prop>
-                   <prop key="AgregarProducto.htm">ControladorProducto</prop> 
-                   <prop key="EditProducto.htm">ControladorProducto</prop>
-
-
+              <props>
+                <prop key="Producto.htm">indexController</prop>
+                  <prop key="EditProducto.htm">ControladorProducto</prop>
+                  <prop key="AgregarProducto.htm">ControladorProducto</prop>
+                  <prop key="Producto.htm">ControladorProducto</prop>
+                   <prop key="Eliminar.htm">ControladorProducto</prop>
             </props>
         </property>
     </bean>

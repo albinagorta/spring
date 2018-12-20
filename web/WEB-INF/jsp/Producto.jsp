@@ -25,9 +25,9 @@
                        
                 </tr>
             </thead>
-            <c:forEach var="d"  items="${datos}">
+           
              <tbody>
-                
+                 <c:forEach var="d"  items="${datos}">
                 <tr><td>${d.id}</td>
                     <td>${d.nombre}</td>
                     <td>${d.stock}</td>
@@ -37,9 +37,9 @@
                            <a href="Eliminar.htm?id=${d.id}">Eliminar</a>
                      </td>
                 </tr>
-               
+                </c:forEach>
             </tbody>
-              </c:forEach>
+             
         </table>
 
         
